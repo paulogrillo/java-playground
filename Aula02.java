@@ -1,15 +1,15 @@
-public class Conta {
+public class Aula02 {
 
     //Atributos
     private long numeroConta;
     private double saldo = 0;
 
     //Construtor
-    public Conta(long numeroConta){
+    public Aula02(long numeroConta){
         this.numeroConta = numeroConta;
     }
 
-    //MÃ©todos
+    //Métodos
     public boolean sacar(double valor){
         if(this.saldo>=valor){
             this.saldo = this.saldo - valor;
@@ -18,4 +18,5 @@ public class Conta {
             return  false;
         }
     }
+    
 }
