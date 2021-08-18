@@ -6,8 +6,8 @@ Task repository
   
 ### bullet points
 
- - [Aula01](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Aula02](https://github.com/matiassingers/awesome-readme)
- - [Aula03](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Aula01](https://github.com/paulogrillo/java-playground/blob/main/Aula01.java)
+ - [Aula02](#)
+ - [Aula03](#)
 
   
