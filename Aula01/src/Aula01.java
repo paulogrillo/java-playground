@@ -22,7 +22,6 @@ class Aula01 {
     	System.out.println("Digite a sua idade");
     	Scanner mySc = new Scanner(System.in);
     	age = mySc.nextInt();
-   
     }
 
     public static void toGreeat() {
