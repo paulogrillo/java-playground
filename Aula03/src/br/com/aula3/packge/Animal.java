@@ -3,11 +3,21 @@ package br.com.aula3.packge;
 public class Animal {
 	
 	//Propriedades
-	String name;
-	String species;
-	String race;
-	String coloring;
-	int age;
+	private String name;
+	private String species;
+	private String race;
+	private String coloring;
+	private int age;
+	
+	//Métidos construtores ou inicializadores
+	//Se for public e com mesmo nome da classe, automaticamente é um método construtor
+	public Animal(String aName, String aSpecies, String aRace, String aColoring, int aAge) {
+		this.name = aName;
+		this.species = aSpecies;
+		this.coloring = aColoring;
+		this.age = aAge;
+	}
+	
 	
 	//Métodos
 	void scheduleProc(String date, String obs){

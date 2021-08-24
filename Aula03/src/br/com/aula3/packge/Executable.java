@@ -2,15 +2,18 @@ package br.com.aula3.packge;
 
 public class Executable {
 		//Criando uma Instancia 
-		static Animal cachorroA = new Animal();
+		static Animal cachorroA = new Animal("Mel","Cachorro","Beaglue","Marrom e Branco", 50);
+
 		
 		public static void main(String[] args) {
 			//Preenchimento das propriedades da instancia Animal
-			cachorroA.name = "mel";
-			cachorroA.species ="Cachorro";
-			cachorroA.race = "Beagle";
-			cachorroA.coloring = "Marrom";
-			cachorroA.age = 10;
+			//cachorroA.name = "mel";
+			//cachorroA.species ="Cachorro";
+			//cachorroA.race = "Beagle";
+			//cachorroA.coloring = "Marrom";
+			//cachorroA.age = 10;
+			
+
 			
 			//Utilizando os métidos da instancia de Animal;
 			cachorroA.scheduleProc("02/09/21", "Cortar as unhas");
