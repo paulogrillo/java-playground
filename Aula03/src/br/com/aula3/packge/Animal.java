@@ -9,8 +9,8 @@ public class Animal {
 	private String coloring;
 	private int age;
 	
-	//Métidos construtores ou inicializadores
-	//Se for public e com mesmo nome da classe, automaticamente é um método construtor
+	//MÃ©tidos construtores ou inicializadores
+	//Se for public e com mesmo nome da classe, automaticamente ï¿½ um mï¿½todo construtor
 	public Animal(String aName, String aSpecies, String aRace, String aColoring, int aAge) {
 		this.name = aName;
 		this.species = aSpecies;
@@ -19,17 +19,17 @@ public class Animal {
 	}
 	
 	
-	//Métodos
+	//Mï¿½todos
 	void scheduleProc(String date, String obs){
 		System.
 		out.
-		println(String.format("Pet %s agendou procedimento em %s com a observação %s", name, date, obs));
+		println(String.format("Pet %s agendou procedimento em %s com a observaï¿½ï¿½o %s", name, date, obs));
 	}
 	
 	void finishStay(String date, String obs) {
 		System.
 		out.
-		println(String.format("Pet %s deixou a loja em %s com a observação %s", name, date, obs));
+		println(String.format("Pet %s deixou a loja em %s com a observaï¿½ï¿½o %s", name, date, obs));
 	}
 	
 }
