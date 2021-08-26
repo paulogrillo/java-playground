@@ -17,11 +17,9 @@ public class Exercicio01 {
     	getYears();
     	getMont();
     	getDays();
-    	toGreeat();
-   
-	}	
-			
-	//Entrada de dados
+    	toGreat();
+	}
+		//Entrada de dados
 		
 	    public static void getYears() {
 	    	System.out.println("Escreva sua idade em anos: ");
@@ -40,7 +38,7 @@ public class Exercicio01 {
 	    	days = mySc.nextInt();
 	    }
 	    
-    public static void toGreeat() {
+    public static void toGreat() {
     	days = (days+(years*365)+(months*30));
     	System.out.println(String.format("Sua idade em dias é "+days));
     }
